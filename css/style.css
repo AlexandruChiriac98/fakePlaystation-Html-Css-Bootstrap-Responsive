@@ -1,0 +1,25 @@
+.my-jumbotron{
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-image: url("//img/jumbotron.jpg");
+}
+
+.card{
+    padding: 0.2rem;
+	border-radius: 1rem;
+	border: none;
+}
+
+.card:hover {
+	outline: 3px solid var(--bs-primary);
+}
+
+.accessories{
+    border-bottom: 2px solid transparent;
+}
+
+.accessories:hover{
+    border-bottom: 2px solid blue;
+}
