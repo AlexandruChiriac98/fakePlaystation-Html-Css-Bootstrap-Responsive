@@ -1,15 +1,37 @@
+header .bg-black img{
+    width: 100px;
+    height: 25px;
+}
+
+.sticky-top{
+    top: -25px;
+}
+
 .my-jumbotron{
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    background-image: url("//img/jumbotron.jpg");
+    background-image: url("../img/jumbo-bg.png");
+}
+
+.big-banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.social{
+    transition: scale .3s linear;
 }
 
 .card{
     padding: 0.2rem;
 	border-radius: 1rem;
 	border: none;
+    margin-bottom: .5rem;
+    color: white;
 }
 
 .card:hover {
@@ -22,4 +44,8 @@
 
 .accessories:hover{
     border-bottom: 2px solid blue;
+}
+
+#plus-logo{
+    width: 220px;
 }
