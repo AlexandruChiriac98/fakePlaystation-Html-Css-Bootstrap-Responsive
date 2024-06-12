@@ -22,7 +22,7 @@ header .bg-black img{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-.social{
+.social:hover{
     transition: scale .3s linear;
 }
 
